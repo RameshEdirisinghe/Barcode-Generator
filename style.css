@@ -1,0 +1,25 @@
+body{
+    text-align: center;   
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(14, 87, 121);
+    
+}
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.submit{
+  column-gap: .5rem;
+  background-color:rgb(79, 129, 136);
+  color:white;
+  transition: background-color .4s;
+  font-size: 1.25rem;
+}
+
+.submit:hover{
+    color:red;
+  }

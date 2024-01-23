@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JsBarcode.all.min.js"></script>
+    <title>Genarate Barcode</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Barcode Generator</h1>
+        <!-- steps-->
+        <p class="step" id="step">Step 1 : Please Enter the value of the barcode you want</p>
+        <p class="step" id="step">Step 2 : Then press the Submit Button</p>
+        <!-- input-->
+        <div class="input">
+            <input type="text" class="text_input" id="text_input">
+            <button type="submit" class="submit" id="submit">Submit</button>
+        </div>
+        <svg id="barcode"></svg>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
